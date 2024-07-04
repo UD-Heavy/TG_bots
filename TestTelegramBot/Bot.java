@@ -70,13 +70,13 @@ public class Bot extends TelegramLongPollingBot {
         if (message != null && message.hasText()) {
             switch (message.getText()) {
                 case "/help":
-                    sendMsg(message, "Pow can I help?");
+                    sendMsg(message, "How can I help?");
                     break;
                 case "/setting":
                     sendMsg(message, "What will we set up?");
                     break;
-                case "Кто пи?":
-                    sendMsg(message, "негры пидорасы");
+                case "Кто **?":
+                    sendMsg(message, "***** ********");
                     break;
                 default:
                     try{
